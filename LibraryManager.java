@@ -1,10 +1,7 @@
-package Day3;
-
-import Day3.features.Feature;
-import Day3.menuAndChoices.FeatureFactory;
-import Day3.services.Library;
-
 import java.util.Scanner;
+import features.Feature;
+import menuAndChoices.FeatureFactory;
+import services.Library;
 
 import static Day3.menuAndChoices.Menu.menuDisplay;
 import static Day3.validation.Utils.getValidateChoice;

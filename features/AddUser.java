@@ -1,11 +1,9 @@
-package Day3.features;
-
-import Day3.models.User;
-import Day3.services.Library;
+package features;
 
 import java.util.Scanner;
-
-import static Day3.validation.Utils.getValidateUserId;
+import models.User;
+import services.Library;
+import static validation.Utils.getValidateUserId;
 
 public class AddUser implements  Feature {
     public void execute(Scanner input, Library library) {

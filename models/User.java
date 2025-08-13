@@ -1,4 +1,4 @@
-package Day3.models;
+package models;
 
 public class User {
     private int id;

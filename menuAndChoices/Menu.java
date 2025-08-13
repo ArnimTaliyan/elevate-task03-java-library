@@ -1,4 +1,4 @@
-package Day3.menuAndChoices;
+package menuAndChoices;
 
 public class Menu {
     public static void menuDisplay() {

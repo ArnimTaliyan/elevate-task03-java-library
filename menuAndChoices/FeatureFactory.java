@@ -1,6 +1,6 @@
-package Day3.menuAndChoices;
+package menuAndChoices;
 
-import Day3.features.*;
+import features.*;
 
 public class FeatureFactory {
     public static Feature getFeature(int choice) {

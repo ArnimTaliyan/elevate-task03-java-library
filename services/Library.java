@@ -1,10 +1,9 @@
-package Day3.services;
-
-import Day3.models.Book;
-import Day3.models.User;
+package services;
 
 import java.util.ArrayList;
 import java.util.List;
+import models.Book;
+import models.User;
 
 public class Library {
     private List<Book> availableBooks = new ArrayList<>();

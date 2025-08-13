@@ -1,10 +1,8 @@
-package Day3.features;
-
-import Day3.services.Library;
+package features;
 
 import java.util.Scanner;
-
-import static Day3.validation.Utils.getValidateBookId;
+import services.Library;
+import static validation.Utils.getValidateBookId;
 
 public class ReturnBook implements Feature {
     @Override

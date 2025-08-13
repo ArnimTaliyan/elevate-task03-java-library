@@ -1,9 +1,8 @@
-package Day3.features;
-
-import Day3.models.Book;
-import Day3.services.Library;
+package features;
 
 import java.util.Scanner;
+import models.Book;
+import services.Library;
 
 public class ViewIssuedBook implements Feature{
     @Override

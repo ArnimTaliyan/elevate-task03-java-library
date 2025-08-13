@@ -1,4 +1,4 @@
-package Day3.validation;
+package validation;
 
 import java.util.Scanner;
 
