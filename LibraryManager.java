@@ -32,7 +32,7 @@ public class LibraryManager {
                 System.out.println("Invalid choice.");
             }
 
-
+            System.out.println();
             start = getValidatedReRun(input, "Do you wish to continue? (y/n): ");
             System.out.println();
         }
