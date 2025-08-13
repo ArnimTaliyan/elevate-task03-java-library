@@ -32,4 +32,14 @@ public class Utils {
         }
         return input.nextInt();
     }
+
+    public static int getValidateBookId(Scanner input, String prompt) {
+        System.out.print(prompt);
+
+        while (!input.hasNextInt()) {
+            System.out.print("Invalid input! Please enter a valid number: ");
+            input.next();
+        }
+        return input.nextInt();
+    }
 }
